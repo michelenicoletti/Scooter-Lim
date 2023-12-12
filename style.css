@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Background */
+body{
+  background-image: url('../Scooter Lim/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+}
+
+body>div{
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+/* ------------------------------------------------------- */
+/* Logo and title */
+header{
+  align-items: center;
+  text-align: center;
+}
+
+header>h1{
+  color: rgb(8, 220, 4);
+  font-size: 25px;
+}
+
+header>img{
+  height: 100px;
+  margin-top: 40px;
+}
+
+/* ------------------------------------------------------- */
+/* Navigator */
+nav{
+  text-align: center;
+  background-color: rgb(8, 220, 4);
+
+  padding: 20px 0px;
+
+  border-radius: 10px;
+  border: 2px solid green;
+}
+
+nav>button{
+  background: radial-gradient(circle, rgb(105 251 63 / 86%) 0%, rgb(60, 199, 90) 100%);
+  border: 2px solid black;
+
+  margin: 0% 3%;
+  padding: 10px;
+
+  font-size: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav>button:hover{
+  background: radial-gradient(circle, rgb(60, 199, 90) 100%, rgb(105 251 63 / 86%) 0%);
+}
+
+/* ------------------------------------------------------- */
+/* Central part */
+nav, h4{
+  margin: 0% 5%;
+}
+
+main {
+  margin: 1% 5%;;
+}
+
+section{
+  margin-bottom: 15px;
+}
+
+section h2, section h3{
+  color: white;
+  margin:  3px 0px 3px 0;
+  display: inline-block;
+  font-size: 15px;
+}
+
+div>span{
+  color: white;
+  font-size: 20px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+section div:last-child{
+  height: 20px;
+  border-radius: 5px;
+}
+#statecharge1{
+  width: 40%;
+}
+
+#statecharge2{
+  width: 75%;
+}
+
+#statecharge3{
+  width: 10%;
+}
+
+.Charge_From_0_To_30{
+  background-color: red;
+}
+.Charge_From_31_To_70{
+  background-color: yellow;
+}
+.Charge_From_71_To_100{
+  background-color: rgb(8, 220, 4);
+}
+
+/* ------------------------------------------------------- */
+/* Signature Web Developer */
+h4{
+  color: white;
+  font-style: oblique;
+
+  text-align: right;
+}
